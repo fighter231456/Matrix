@@ -41,4 +41,4 @@ int main() {
    return 0;
 }
 
-//ภัทรพล เวียงคำ 056550405170-9 sec2
+//Pattaraphol Weingkum 056550405170-9 sec2
