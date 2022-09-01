@@ -32,6 +32,11 @@ int main() {
    int matrix[10][10];
    cout << "Enter viable(2 or 3):";
    cin >> n;
+   if (n>3)
+   {
+      cout<<"Error\n";
+      return 0;
+   }
    cout << "Enter matrix I:\n";
    for (i = 0; i < n; i++)
    for (j = 0; j < n; j++)
