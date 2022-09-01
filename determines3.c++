@@ -30,11 +30,11 @@ int determinant( int matrix[10][10], int n) {
 int main() {
    int n, i, j;
    int matrix[10][10];
-   cout << "Enter viable(2 or 3):";
+   cout << "Enter viable(2 or 3):"; 
    cin >> n;
    if (n>3)
    {
-      cout<<"Error\n";
+      cout<<"You can send only 2 or 3,Please try again\n";
       return 0;
    }
    cout << "Enter matrix I:\n";
